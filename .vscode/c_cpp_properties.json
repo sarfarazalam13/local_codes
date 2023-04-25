@@ -2,8 +2,8 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": ["C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0"
-            
+            "includePath": [
+                ""
             ],
             "defines": [
                 "_DEBUG",
@@ -11,8 +11,28 @@
                 "_UNICODE"
             ],
             "cStandard": "gnu11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/TDM-GCC-64/bin/g++.exe",
+            "compilerArgs": [
+                "-lbgi ",
+                "-lgdi32 ",
+                "-lcomdlg32 ",
+                "-luuid ",
+                "-loleaut32 ",
+                "-lole32"
+            ]
+        },
+        {
+            "name": "lin",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x86"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
